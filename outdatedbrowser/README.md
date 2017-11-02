@@ -23,6 +23,8 @@ HTML中需要加入以`outdated`为`id`的`div`:
 <div id="outdated">...</div>
 ```
 
+下载demo在不同浏览器打开即可看到效果
+
 
 
 
