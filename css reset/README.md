@@ -5,7 +5,7 @@
 但是我们的目标是尽量让网站在不同浏览器中表现相同。
 CSS重置就是将页面中的默认样式移除，让你专注于自己的样式开发。
 
-<img src="/css-reset.png" />
+<img src="https://raw.githubusercontent.com/Denisazy/code-note/master/css%20reset/css-reset.png" />
 
 [A Comprehensive Guide to CSS Resets](https://www.webpagefx.com/blog/web-design/a-comprehensive-guide-to-css-resets/)
 
