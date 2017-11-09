@@ -1,0 +1,125 @@
+/*custom*/
+
+.data-title{
+   margin:0 !important;
+   font-size: 20px !important;
+}
+
+.share-reveal{
+    display: block; 
+    position: absolute; 
+    top: 16px;
+    right: 1%;
+    z-index: 20;
+}
+.share-reveal .share-reveal-editor {
+    line-height: 30px;
+    font-family: "Microsoft YaHei";
+}
+
+.reveal h2{
+	margin-bottom: 0 !important;
+	display: inline;
+	font-weight: 300;
+	font-family: "Microsoft YaHei";
+}
+
+.reveal span{
+	font-family: "Microsoft YaHei";
+}
+
+.reveal a {
+    color: #FF9800;
+    }
+
+.reveal a:hover {
+    color: #f9c373;
+}
+
+p{
+	line-height: 22px;
+}
+
+.col-md-3 {
+    padding-bottom: 8px;
+}
+
+.bg-color{
+   position: absolute;
+    z-index: 1000;
+    background-color: rgba(12, 11, 11, 0.62);
+    top: 0px;
+    text-align: center;
+    padding-top: 20px;
+    width: 90%;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+
+.share-reveal a {
+    display: inline-block;
+    height: 34px;
+    line-height: 32px;
+    padding: 0 10px;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    vertical-align: top;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+.share-reveal-editor {
+    border: 2px solid #fff;
+}
+
+.data-img{
+    height: 550px;
+}
+
+#data-grid{
+    display: none; 
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    text-align: center; text-transform: uppercase; z-index:1500;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Microsoft YaHei';
+    padding-top: 100px;
+}
+
+#data-grid .last{position: absolute; top: 10px; right: 25px; width: 20px; height: 20px;}
+#data-grid .last[dir='rtl']{right: auto !important; left: 25px !important;}
+#data-grid #btnCloseUpdateBrowser{
+    display: block; position: relative; width: 100%; height: 100%;
+    text-decoration: none; color: #fff; font-size: 36px; line-height: 36px;
+}
+
+
+#history a {
+	color: white;
+}
+
+#history img{
+	width: 263px;
+	height: 177px;
+	object-fit: cover;
+}
+
+#divCenter{
+	position: absolute; 
+	z-index: 1000009; 
+	display: none; 
+	background-color: rgba(0, 0, 0, 0.73);
+	width: 100%;
+	 height: 100%;
+	 left: 0;
+	top: 0;
+	border:1px solid #222;
+}
+
+#divCenter a{
+	text-decoration: none; color: #fff; font-size: 36px; line-height: 36px;position: absolute; top: 10px; right: 25px;
+}
