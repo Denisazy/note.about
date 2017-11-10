@@ -4983,6 +4983,8 @@
 
 		// Toggles the auto slide mode on/off
 		toggleAutoSlide: toggleAutoSlide,
+		//手动添加部分
+		pauseAutoSlide:pauseAutoSlide,
 
 		// State checks
 		isOverview: isOverview,
