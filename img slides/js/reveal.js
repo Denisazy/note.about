@@ -6,7 +6,7 @@
  * Copyright (C) 2017 Hakim El Hattab, http://hakim.se
  */
 // reveal.js的结构为(function(){…}()); 
-//从结果上来说，(function(){…}()); 和(function(){…})();是一样的，两者的作用都是创建一个函数并调用之。
+//从结果上来说，(function(){…}()); 和(function(){…})();是一样的，两者的作用都是创建一个匿名函数并调用之。
 //具体分析：https://www.zhihu.com/question/20292224
 (function( root, factory ) {
 	if( typeof define === 'function' && define.amd ) {
