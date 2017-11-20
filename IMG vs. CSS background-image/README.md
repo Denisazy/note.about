@@ -35,3 +35,34 @@
 </style>
 ```
 
+> IE8及以下，请使用[filter属性](http://blog.sina.com.cn/s/blog_6a53fce50102vhqr.html)
+
+```html
+<div class="container"></div>​
+<style>
+.container {
+    width: 100px;
+    height: 100px;
+    /*用filter的时候需要注意一下IE8不能识别相对路径*/
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='yourpath/1.jpg');
+    background-repeat: no-repeat;
+}​
+</style>
+```
++ [CSS-TRICKS的filter使用大全](https://css-tricks.com/almanac/properties/f/filter/)
++ [IE中CSS-filter滤镜小知识大全](https://segmentfault.com/a/1190000002433305)
+
+
+
+
+## 何时需要使用img标签添加图片
+
++ 打印页面的时候默认包含的图片
++ 当图像无法加载显示的时候，用户可以看到文本解释，使用`alt`属性添加文本
+
+## 何时使用background-image属性添加图片
+
++ 打印页面的时候默认不包含的图片
+
+[IMG vs. CSS background-image](https://stackoverflow.com/questions/492809/when-to-use-img-vs-css-background-image/1469139#1469139)
+
